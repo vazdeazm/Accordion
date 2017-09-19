@@ -1,49 +1,40 @@
-.wrapper {
-    max-width: 600px;
-    margin: 0 auto;
+body {
+    background: black;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-.accordion {
-    font-size: 18px;
-    text-align: center;
-    background: #888;
-    color: #fff;
-    line-height: 2;
-    cursor: pointer;
-    margin-bottom: 4px;
-}
-
-.content {
-    display: none;;
-    text-align: center;
-    background: #008;
-    color: #fff;
+.container {
+    outline-style: outset;
+    border-style: outset;
     padding: 10px;
-    margin-top: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
 }
 
-/*button.accordion {
-    background-color: #eee;
-    color:  #444;
+
+button.accordion {
+    font: italic bold 12px/30px arial, sans-serif;
+    background-color: purple;
+    color: white;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    width:  100%;
     text-align: left;
-    border: none;
-    outline:  none;
+    font-size: 19px;
     transition: 0.4s;
 }
 
-nav.test {
-    padding: 10px;
-    color: #444;
+
+.accordion.active, .accordion.hover {
+    background-color:  blue;
 }
 
-button.accordion.active, button.accordion.hover {
-    background-color:  #ddd;
-}
-
-div.panel {
+.panel {
+    border-style: groove;
+    border-width: 1px;
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -61,4 +52,4 @@ button.accordion:after {
 
 button.accordion.active:after {
     content: "-";
-}*/
+}
