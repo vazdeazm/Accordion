@@ -10,6 +10,11 @@ button.accordion {
     transition: 0.4s;
 }
 
+nav.test {
+    padding: 10px;
+    color: #444;
+}
+
 button.accordion.active, button.accordion.hover {
     background-color:  #ddd;
 }
