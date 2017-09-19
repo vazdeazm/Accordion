@@ -1,4 +1,28 @@
-button.accordion {
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion {
+    font-size: 18px;
+    text-align: center;
+    background: #888;
+    color: #fff;
+    line-height: 2;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.content {
+    display: none;;
+    text-align: center;
+    background: #008;
+    color: #fff;
+    padding: 10px;
+    margin-top: 0;
+}
+
+/*button.accordion {
     background-color: #eee;
     color:  #444;
     cursor: pointer;
@@ -37,4 +61,4 @@ button.accordion:after {
 
 button.accordion.active:after {
     content: "-";
-}
+}*/
