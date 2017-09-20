@@ -9,6 +9,7 @@ body {
     border-style: outset;
     padding: 10px;
     position: fixed;
+    margin: 0 auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -21,6 +22,7 @@ button.accordion {
     background-color: purple;
     color: white;
     cursor: pointer;
+    margin: 0 auto;
     width:  100%;
     text-align: left;
     font-size: 19px;
@@ -43,13 +45,13 @@ button.accordion {
 }
 
 button.accordion:after {
-    content: '+';
+    content: '\02C4';
     font-size: 13px;
-    color: #777;
+    color: white;
     float: right;
     margin-left: 5px;
 }
 
 button.accordion.active:after {
-    content: "-";
+    content: "\02C5";
 }
